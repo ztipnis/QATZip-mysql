@@ -1312,6 +1312,7 @@ IF(UNIX)
 ENDIF()
 
 find_package(qatzip REQUIRED)
+include_directories(${QATZIP_INCLUDE_DIR})
 
 SET(DOXYGEN_OUTPUT_DIR "${CMAKE_CURRENT_BINARY_DIR}/doxygen")
 FIND_PACKAGE(Doxygen)
