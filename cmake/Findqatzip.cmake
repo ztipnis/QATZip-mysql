@@ -5,8 +5,11 @@
 # QATZIP_LIBRARIES - List of libraries when using qatzip.
 # QATZIP_FOUND - True if qatzip found.
 
-find_path(QATZIP_INCLUDE_DIR NAMES qatzip.h)
 
+set(QATZIP_INCLUDE_DIR /usr/local/include)
+set(QATZIP_LIBRARIES qatzip)
+
+find_path(QATZIP_INCLUDE_DIR NAMES qatzip.h)
 find_library(QATZIP_LIBRARIES NAMES qatzip)
 
 include(FindPackageHandleStandardArgs)
