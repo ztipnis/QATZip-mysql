@@ -1,0 +1,3 @@
+[submodule "storage/innobase"]
+	path = storage/innobase
+	url = git@github.com:ztipnis/innobase-QATZip.git
