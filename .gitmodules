@@ -1,6 +1,0 @@
-[submodule "innobase"]
-	path = innobase
-	url = ./storage/innobase
-[submodule "storage/innobase"]
-	path = storage/innobase
-	url = ../innobase
